@@ -65,6 +65,6 @@ const { provider, PRIVATE_KEY, CONTRACT_ADDRESS } = require('./src/config');
     }
 
     console.log('Retrying in 10 seconds...'.yellow);
-    await delay(10000);
+    await delay(3600000);
   }
 })();
